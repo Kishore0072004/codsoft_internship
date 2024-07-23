@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+#home {
+    background: url('download.jpg') no-repeat center center/cover;
+    color: white;
+}
+
+#home h1 {
+    font-size: 3em;
+    margin-top: 100px;
+}
+
+#about,#contact {
+	background: url('download.jpg') no-repeat center center/cover;
+    background-color: #f4f4f4;
+    margin: 20px 0;
+}
+#services{
+	background: url('download.jpg') no-repeat center center/cover;
+}
+	
+.grid-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+            gap: 7px; /* Space between grid items */
+			outline:0;
+			margin:0;
+            padding: 10px;
+			
+ }
+.grid-item{
+         
+         border:0 /* Existing border */
+		 outline:0;
+		 margin:0;
+         padding: 12px;
+        text-align: center;
+}
+.text-red {
+            color: blue;
+        }
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
